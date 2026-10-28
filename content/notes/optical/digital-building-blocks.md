@@ -1,6 +1,6 @@
 +++
 title = "Digital building blocks"
-date = 2026-10-29
+date = 2026-10-29T00:00:00+05:30
 type = "notes"
 url = "/notes/optical/digital-building-blocks/"
 +++
