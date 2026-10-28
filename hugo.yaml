@@ -1,6 +1,10 @@
 baseURL:  https://krishna-bansall.github.io
 languageCode: en-us
 title: Krishna's Homepage
+
+# Obsidian templates contain placeholders that are not valid Hugo front matter.
+ignoreFiles:
+  - '/content/templates/'
 theme: ""
 
 enableRobotsTXT: true
