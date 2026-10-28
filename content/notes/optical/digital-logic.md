@@ -46,4 +46,5 @@ Now withing the circuit there are several *nodes* and *elements* that are black 
 
 ---
 [[boolean algebra]]
+[[boolean logic]]
 [[digital building blocks]]

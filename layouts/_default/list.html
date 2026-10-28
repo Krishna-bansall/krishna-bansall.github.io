@@ -82,6 +82,7 @@
 
   <!-- Notes section shows simple list -->
   {{- else if eq .CurrentSection.Type "notes" }}
+  {{- if not .Params.hide_list }}
   <div class="section">
     <ul class="post-list">
       {{- range .Pages }}
@@ -94,6 +95,7 @@
       {{- end }}
     </ul>
   </div>
+  {{- end }}
 
   <!-- Tags section shows tag grid with posts -->
   {{- else if eq .CurrentSection.Type "tags" }}
@@ -171,7 +173,7 @@
   {{- end }}
 
   <!-- Pagination -->
-  {{- if gt (len .Pages) 12 }}
+  {{- if and (not .Params.hide_list) (gt (len .Pages) 12) }}
   <nav style="margin-top: 3rem; display: flex; justify-content: center; gap: 0.5rem;">
     {{- if .Paginator.HasPrev }}
     <a href="{{ .Paginator.Prev.URL }}" class="btn btn-secondary">Previous</a>

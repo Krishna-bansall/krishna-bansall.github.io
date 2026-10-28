@@ -40,3 +40,5 @@ url = "/notes/optical/computer-architecture/"
 minterms and maxterms
 [[comp arch and microarch]]
 [[Assembly and C]]
+[[scalar processors]]
+[[optical computing]]
