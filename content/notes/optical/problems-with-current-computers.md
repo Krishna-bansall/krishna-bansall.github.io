@@ -1,6 +1,8 @@
 +++
 title = "Problems with current computers"
 date = 2026-10-29T00:00:00+05:30
+publishDate = 2026-10-29T00:00:00+05:30
+written_date = 2026-01-14
 type = "notes"
 url = "/notes/optical/problems-with-current-computers/"
 +++

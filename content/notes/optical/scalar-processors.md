@@ -1,6 +1,8 @@
 +++
 title = "Scalar processors"
 date = 2026-10-29T00:00:00+05:30
+publishDate = 2026-10-29T00:00:00+05:30
+written_date = 2025-08-28
 type = "notes"
 url = "/notes/optical/scalar-processors/"
 +++

@@ -1,6 +1,8 @@
 +++
 title = "Comp arch and microarch"
 date = 2026-10-29T00:00:00+05:30
+publishDate = 2026-10-29T00:00:00+05:30
+written_date = 2026-01-25
 type = "notes"
 url = "/notes/optical/comp-arch-and-microarch/"
 +++
